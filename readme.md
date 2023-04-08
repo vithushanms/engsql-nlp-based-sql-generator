@@ -2,7 +2,7 @@ Author: vithushan sylvester <vsylvester@mitrai.com>
 
 # GPT-based SQL Generation API
 
-This application uses a GPT model to generate SQL queries based on natural language prompts. The application is built using FastAPI and serves a single endpoint for submitting prompts and receiving generated SQL queries.
+This application uses a GPT model to generate SQL queries based on natural language prompts. The application is built using FastAPI and serves a single endpoint for submitting prompts and receiving generated SQL queries. At the same time, it has a UI built in to try executing queries in your database using natural language.
 
 ## Requirements
 
