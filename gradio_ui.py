@@ -36,8 +36,8 @@ iface = gr.Interface(
     fn=execute_first_query,
     inputs="text",
     outputs="json",
-    title="AI based assistent for Creatio",
-    description="Ask any questions related to the student section"
+    title="AI based query assistent",
+    description="Ask any questions in the context of your database"
 )
 
 iface.launch()
